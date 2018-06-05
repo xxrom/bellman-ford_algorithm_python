@@ -71,6 +71,3 @@ class BellmanFord(object):
 
     else:
       print('We have negative cycle!!! sooo we cant get shortest path')
-
-
-  def __init__(self, startVertex, targetVertex):
