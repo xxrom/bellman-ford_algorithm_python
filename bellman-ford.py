@@ -1,6 +1,8 @@
 # смотрим сразу все Edge между вершинами и это делаем количестов раз
 # равное количеству вершинам, сложность алгоритма O(V * E)
 
+# DAG new algorithm , быстрее чем bellman-ford and dijkstra O(V + E)
+
 import sys # for sys.maxsize
 
 class Node(object): # наследование от object???
